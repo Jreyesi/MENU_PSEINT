@@ -1025,9 +1025,9 @@ Algoritmo Menu
 							Esperar 4 Segundos
 							Borrar Pantalla
 						"6":
-							Dimension arreglo1[15],arreglo2[15],sumarreglo[15]
 							Escribir "Ingrese cantidad de Elementos:" Sin Saltar
 							Leer dim
+							Dimension arreglo1[dim],arreglo2[dim],sumarreglo[dim]
 							Escribir "Ingrese los datos para vector A"
 							ingresarArreglo(arreglo1,dim)
 							Escribir "Ingrese los datos para vector B"
